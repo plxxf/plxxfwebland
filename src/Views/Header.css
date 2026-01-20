@@ -22,6 +22,12 @@
   -moz-osx-font-smoothing:grayscale;
 }
 
+/* NEW: Center + narrow the entire header block */
+.wcHeaderShell{
+  width:min(980px,100%);
+  margin:0 auto;
+}
+
 .wcNav{
   position:sticky;
   top:0;
@@ -32,8 +38,8 @@
 }
 
 .wcNavInner{
-  max-width:var(--wc-max);
-  margin:0 auto;
+  max-width:none;
+  margin:0;
   padding:16px 18px;
   display:flex;
   align-items:center;
@@ -195,8 +201,8 @@
 }
 
 .wcHeroInner{
-  max-width:var(--wc-max);
-  margin:0 auto;
+  max-width:none;
+  margin:0;
   padding:0 18px;
   display:grid;
   grid-template-columns:1.05fr .95fr;

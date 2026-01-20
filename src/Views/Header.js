@@ -74,7 +74,7 @@ const Header = () => {
               <br />
               Just for 霹雳小旋风
               <br />
-              
+              Hope you have a great day!
             </h1>
 
             <p className="wcHeroSubtitle">
