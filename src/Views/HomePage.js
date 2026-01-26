@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import './HomePage.css';
 
-import Header from './Header.js';
+import TopFold from './TopFold.js';
 
 
 const HomePage = () => {
@@ -15,7 +15,7 @@ const HomePage = () => {
 
     return (
         <div className="cafe-homepage">
-             <Header />
+             <TopFold />
 
              
         </div>
